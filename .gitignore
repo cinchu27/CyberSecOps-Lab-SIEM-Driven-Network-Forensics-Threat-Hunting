@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.pyc
+
+# Virtual environments
+venv/
+.env/
+
+# Logs & PCAPs (Sensitive)
+*.log
+*.pcap
+*.pcapng
+
+# Elasticsearch / Logstash / Filebeat data
+data/
+logs/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor files
+.vscode/
+.idea/
